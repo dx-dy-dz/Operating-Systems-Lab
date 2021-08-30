@@ -75,7 +75,7 @@ int main()
  printf("Process  Arrival-time(s)  Burst-time(s)  Waiting-time(s)  Turnaround-time(s)\n");
    for(i=0;i<n;i++)
     {
-      printf("P%d            %d              %d             %d               %d\n",i,at2[i],bt[i],wt[i],tat[i]);
+      printf("P%d%d%d%d%d\n",i,at2[i],bt[i],wt[i],tat[i]);
     }
    for(i=0;i<n;i++)
    {
