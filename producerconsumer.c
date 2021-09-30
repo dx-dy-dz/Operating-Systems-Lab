@@ -13,16 +13,16 @@ int main()
      void consumer();
      int wait(int);
      int signal(int);
-printf("\n1.Producer\n2.Consumer\n3.Exit"); 
-while(1)
-{
+     printf("\n1.Producer\n2.Consumer\n3.Exit"); 
+     while(1)
+     {
   
-printf("\nEnter your choice:");
-scanf("%d",&n);
-switch(n)
-{
-case 1: if((mutex==1)&&(empty!=0))
-producer();
+         printf("\nEnter your choice:");
+         scanf("%d",&n);
+         switch(n)
+         {
+               case 1: if((mutex==1)&&(empty!=0))
+               producer();
 else
 printf("Buffer is full!!");
 break;
