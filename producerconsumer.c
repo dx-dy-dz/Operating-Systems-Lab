@@ -33,12 +33,12 @@ int main()
                    else
                         printf("Buffer is empty!!");
                    break;
-case 3:
-exit(0);
-break;
-}
-}
-return 0;
+                case 3:
+                    exit(0);
+                    break;
+          }
+     }
+     return 0;
 }
  
 int wait(int s)
