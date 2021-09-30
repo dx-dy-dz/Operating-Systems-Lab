@@ -21,11 +21,12 @@ int main()
          scanf("%d",&n);
          switch(n)
          {
-               case 1: if((mutex==1)&&(empty!=0))
-               producer();
-else
-printf("Buffer is full!!");
-break;
+               case 1: 
+                   if((mutex==1)&&(empty!=0))
+                       producer();
+                   else
+                       printf("Buffer is full!!");
+                   break;
 case 2: if((mutex==1)&&(full!=0))
 consumer();
 else
