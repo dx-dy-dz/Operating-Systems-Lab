@@ -5,15 +5,15 @@ int mutex=1,full=0,empty,x=0;
  
 int main()
 {
-int n,buff;
-printf("Buffer");
-  scanf("%d",&buff);
-empty = buff;
-void producer();
-void consumer();
-int wait(int);
-int signal(int);
-printf("\n1.Producer\n2.Consumer\n3.Exit");
+     int n,buff;
+     printf("Buffer");
+     scanf("%d",&buff);
+     empty = buff;
+     void producer();
+     void consumer();
+     int wait(int);
+     int signal(int);
+printf("\n1.Producer\n2.Consumer\n3.Exit"); 
 while(1)
 {
   
