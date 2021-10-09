@@ -10,11 +10,14 @@ void *sumOf(void *arg)
     arr = arg;
 
     int n1,n2,sum;
+    
     n1=arr[0];
     n2=arr[1];
+    
     sum = n1+n2;
     printf("Sum => %d + %d = %d\n",n1,n2,sum);
     printf("End of thread\n");
+    
     return NULL;
 }
 
